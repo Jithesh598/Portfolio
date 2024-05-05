@@ -16,14 +16,10 @@ import snowflake from '/Resources/Logo/skills/snowflake.svg';
 import tableau from '/Resources/Logo/skills/tableau.svg';
 import mongodb from '/Resources/Logo/skills/mongodb.svg';
 import mysql from '/Resources/Logo/skills/mysql.svg';
-
 import postgresql from '/Resources/Logo/skills/postgresql.svg';
 import python from '/Resources/Logo/skills/python.svg';
-
 import firebase from '/Resources/Logo/skills/firebase.svg';
-
 import hadoop from '/Resources/Logo/skills/hadoop.svg';
-
 
 
 const skillsList = [

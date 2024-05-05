@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://dommarajunikhil26.github.io/Portfolio",
+  "homepage": "https://Jithesh598.github.io/Portfolio",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@emotion/react": "^11.11.4",
@@ -28,6 +28,7 @@
     "react-intersection-observer": "^9.8.1",
     "react-lazy-load-image-component": "^1.6.0",
     "react-on-screen": "^2.1.1",
+    "react-router-dom": "^6.23.0",
     "react-scroll": "^1.9.0",
     "react-tabs": "^6.0.2",
     "react-toastify": "^10.0.4",
