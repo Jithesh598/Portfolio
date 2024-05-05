@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import logo from '/Resources/Images/logo.svg';
+import logo from '/Resources/Images/logo2.png';
 import { Link } from "react-scroll";
 
 
