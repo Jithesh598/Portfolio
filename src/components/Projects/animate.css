@@ -1,0 +1,122 @@
+/* animate.css */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.animate__fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.animate__slideInUp {
+    animation-name: slideInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInAndUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate__fadeInAndUp {
+    animation-name: fadeInAndUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.react-tabs__tab:hover {
+    background-color: #4A2FBD !important;
+    /* Ensure hover background color applies */
+}
+
+.react-tabs__tab--selected {
+    background-color: #4A2FBD !important;
+    /* Background color for selected tab */
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+/* Loading */
+
+@keyframes animateC {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    100% {
+        transform: rotate(405deg);
+    }
+}
+
+.loader-circle-9::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid transparent;
+    border-top: 3px solid #00eaff;
+    border-right: 3px solid #00eaff;
+    border-radius: 50%;
+    animation: animateC 2s linear infinite;
+}
+
+.loader-circle-9 span {
+    display: block;
+    position: absolute;
+    top: calc(50% - 2px);
+    left: 50%;
+    width: 50%;
+    height: 4px;
+    background: transparent;
+    transform-origin: left;
+    animation: animate 2s linear infinite;
+}
+
+.loader-circle-9 span::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #00eaff;
+    top: -6px;
+    right: -8px;
+    box-shadow: 0 0 20px #00eaff;
+}
