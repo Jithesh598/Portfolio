@@ -30,7 +30,7 @@ const Footer = () => {
                         </a>
                     </div>
                     <div className="text-sm">
-                        © {new Date().getFullYear()} Jitesh Kota. All Rights Reserved.
+                        © {new Date().getFullYear()} Nikhil Sai Dommaraju. All Rights Reserved.
                     </div>
                 </div>
             </Fade>

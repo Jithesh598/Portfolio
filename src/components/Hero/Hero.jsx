@@ -32,7 +32,7 @@ const Hero = () => {
                                     <h2 className="font-poppins font-bold text-2xl md:text-3xl lg:text-4xl">I am Jitesh Kota.</h2>
                                 </Fade>
                             ) : (
-                                <h2 className="font-poppins text-2xl md:text-3xl lg:text-4xl">I am Jitesh Kota.</h2>
+                                <h2 className="font-poppins text-2xl md:text-3xl lg:text-4xl">I am Jithesh Kota.</h2>
                             )}
                         </div>
                         <div ref={ref}>
