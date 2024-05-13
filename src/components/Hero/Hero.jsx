@@ -29,7 +29,7 @@ const Hero = () => {
                         <div ref={ref}>
                             {inView ? (
                                 <Fade delay={5} duration={1000}>
-                                    <h2 className="font-poppins font-bold text-2xl md:text-3xl lg:text-4xl">I am Jitesh Kota.</h2>
+                                    <h2 className="font-poppins font-bold text-2xl md:text-3xl lg:text-4xl">I am Jihesh Kota.</h2>
                                 </Fade>
                             ) : (
                                 <h2 className="font-poppins text-2xl md:text-3xl lg:text-4xl">I am Jithesh Kota.</h2>
