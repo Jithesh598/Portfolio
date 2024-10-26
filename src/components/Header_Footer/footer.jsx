@@ -10,7 +10,7 @@ const Footer = () => {
         <footer className="bg-[url('/Resources/Images/footer-bg.png')] text-white p-5">
             <Fade delay={200}>
                 <div className="container mx-auto flex flex-col items-center">
-                    <h2 className="text-xl font-poppins font-semibold">Jitesh Kota</h2>
+                    <h2 className="text-xl font-poppins font-semibold mt-4">Jitesh Kota</h2>
                     {/* <h4 className="text-md mb-4 font-roboto-slab">Data Analyst</h4> */}
                     <div className='flex flex-row justify-center items-center space-x-6 mb-4'>
                         <a href="https://www.instagram.com/jithesh_kota/?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
