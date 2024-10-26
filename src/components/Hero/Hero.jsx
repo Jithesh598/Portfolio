@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useInView } from "react-intersection-observer";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import HeroImage from './HeroImage';
 import NavBar from "../Header_Footer/NavBar";
 import './resumeButton.css';
+import TypedAnimatedComponent from '../Animation/TypedAnimation/index';
 const Hero = () => {
     const { ref, inView } = useInView({
         triggerOnce: true,
@@ -35,15 +36,7 @@ const Hero = () => {
                                 <h2 className="font-poppins text-2xl md:text-3xl lg:text-4xl">I am Jithesh Kota.</h2>
                             )}
                         </div>
-                        <div ref={ref}>
-                            {inView ? (
-                                <Slide delay={5} duration={1000} direction="right">
-                                    <h2 className="font-poppins font-bold text-2xl md:text-3xl lg:text-4xl">I am a Data Analyst</h2>
-                                </Slide>
-                            ) : (
-                                <h2 className="font-poppins text-2xl md:text-3xl lg:text-4xl">I am a Data Analyst.</h2>
-                            )}
-                        </div>
+                        <TypedAnimatedComponent />
 
                     </div>
                     <div className="w-full flex justify-center items-center md:justify-start">
